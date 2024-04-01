@@ -31,10 +31,12 @@ public class HelloAppEngine extends HttpServlet {
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response)
       throws IOException {
-    // Properties properties = System.getProperties();
+    Properties properties = System.getProperties();
 
     response.setContentType("text/plain");
-    response.getWriter().println("Hello CQUni");
+    response.getWriter().println("Hello App Engine - Standard using "
+            + SystemProperty.version.get() + " Java "
+            + properties.get("java.specification.version"));
   }
 
   public static String getInfo() {
