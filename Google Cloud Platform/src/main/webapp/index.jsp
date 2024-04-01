@@ -21,10 +21,10 @@
 <html>
 <head>
   <link href='//fonts.googleapis.com/css?family=Marmelad' rel='stylesheet' type='text/css'>
-  <title>Hello App Engine Standard Java 8</title>
+  <title>Hello CQUni</title>
 </head>
 <body>
-    <h1>Hello App Engine -- Java 8!</h1>
+    <h1>Hello CQUni!</h1>
 
   <p>This is <%= HelloAppEngine.getInfo() %>.</p>
   <table>
